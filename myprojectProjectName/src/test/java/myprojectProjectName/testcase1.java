@@ -1,3 +1,12 @@
+package myprojectProjectName;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class testcase1 {
+
+
 void Duplication() {
 		int[] a= {6,1,6,2,6,0,2,1 };
 		int[] c_v=new int[a.length];    //c_v--count_value
@@ -26,3 +35,7 @@ void Duplication() {
 				}
 			}
 		}
+public static void main(String[] args) {
+	testcase1 obj=new testcase1();
+	obj.Duplication();
+}}
